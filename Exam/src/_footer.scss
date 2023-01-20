@@ -1,0 +1,37 @@
+.footer{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_section{
+    width: 410px;
+    color: $color_text;
+    text-align: center;
+  
+    margin-left: 75px;
+   
+
+}
+.footer_theme{
+   font-size: 21px;
+   font-weight: 400;
+   text-align: center;
+    font-family: 'Yeseva One, cursive';
+}
+
+.footer_theme::after{
+    display: block;
+    content: url(../build/images/decoration_2.svg);
+    padding: 25px;
+}
+.footer_desc{
+    font-family: 'Lato', sans-serif;
+}
+
+.footer_img{
+    padding-top: 25px ;
+}

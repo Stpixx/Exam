@@ -1,0 +1,43 @@
+.ingredients_section{
+    background-image: url(../build/images/section_bg.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-top: 100px;
+    padding-right: 76px;
+    justify-content: right;
+    
+}
+
+.right_block{
+    background-color: rgba(0,0,0, 0.8);
+    padding-top: 100px;
+    width: 630px;
+    height: 550px;
+    text-align: center;
+
+}
+
+
+
+.ingridients_theme::after{
+    display: block;
+    content: url(../build/images/decoration_2.svg);
+    background-repeat: no-repeat;
+    padding: 25px;
+ }
+
+ .ingridients_theme{
+    color: $color_text;
+    font-size: 36px;
+ }
+
+
+ .section_desc{
+ color: $color_text;
+ width: 470px;
+ margin:0 auto;
+ padding-bottom: 50px;
+ font-family: 'Lato', sans-serif;
+ }
